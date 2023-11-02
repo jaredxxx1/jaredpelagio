@@ -214,18 +214,15 @@ header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-f
 
 def main():
     os.system('clear');print(banner)
-    print('\033[1;32m        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”') 
-    print("\033[1;92m\tâ”‚\033[1;96mMAIN MENU\033[1;92mâ”‚")
-    print('\033[1;32mâ”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”') 
+  print("\033[1;92m\tâ”‚\033[1;96mMAIN MENU\033[1;92mâ”‚")
     print('\033[1;92mâ”‚\033[1;37m[01] \033[1;96mFILE CLONING   \033[1;37m[\033[1;32mCP/OK MIX IDS\033[1;37m] \033[1;31m(\033[1;32mFAST\033[1;31m) \033[1;32m â”‚ ')
     print('\033[1;92mâ”‚\033[1;37m[02] \033[1;96mFILE CLONING   \033[1;37m[\033[1;32mONLY OK IDS  \033[1;37m] \033[1;31m(\033[1;32mSLOW\033[1;31m) \033[1;32m â”‚')
     print('\033[1;92mâ”‚\033[1;37m[03] \033[1;96mPUBLIC CLONING \033[1;37m[\033[1;32mCP/OK MIX IDS\033[1;37m]\033[1;31m (\033[1;32mFAST\033[1;31m) \033[1;32m â”‚')
     print('\033[1;92mâ”‚\033[1;37m[04] \033[1;96mCREATE FILE \033[1;32m                           â”‚')
     print('\033[1;92mâ”‚\033[1;37m[05] \033[1;96mSEPARATE IDS\033[1;32m                           â”‚ ')
-    print('\033[1;92mâ”‚\033[1;37m[06] \033[1;96mCONTACT WITH OWNER \033[1;32m                    â”‚')
+    print('\033[1;92mâ”‚\033[1;37m[06] \033[1;96mFACEBOOK:JARED PELAGIO\033[1;32m                    â”‚')
     print('\033[1;92mâ”‚\033[1;37m[07] \033[1;96mREMOVE TOKEN\033[1;32m                           â”‚')
     print('\033[1;92mâ”‚\033[1;37m[00] \033[1;91mEXIT\033[1;32m                                   â”‚ ')
-    print('\033[1;32mâ””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜')
     print('')
     Ali = input('\033[1;37m[+] \033[1;32mCHOOSE OPTION : ')
     if Ali in ('1', '01'):
@@ -244,7 +241,7 @@ def main():
         time.sleep(2)
         os.system('clear');print(banner);print(' Removing Token .');time.sleep(1);os.system('clear');print(banner);print(' Removing Token ..');time.sleep(1);os.system('clear');print(banner);print(' Removing Token ...');time.sleep(2);os.system('clear');print(banner);print('\033[1;91mToken Removed\033[0m');time.sleep(3);os.system('rm -rf access_token.txt'); version()
     if Ali in ('0', '00'):
-        exit('THANKS FOR USING GANGWAR TOOL')  
+        exit('THANKS FOR USING JARED TOOL')  
     else:
     	print ('        Invalid Select')
     version()
@@ -265,7 +262,7 @@ def login():
         ts = open('access_token.txt', 'w')
         ts.write(tok)
         ts.close()
-        print('\033[1;92m\t Logged in successfully')
+        print('\033[1;92m\t Logged in successfully'‚ kindly follow me in facebook:jared pelagio)
         time.sleep(1)
         version()
     except KeyError:
